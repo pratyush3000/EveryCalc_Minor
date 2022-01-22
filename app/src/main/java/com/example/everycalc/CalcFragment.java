@@ -8,11 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.google.android.material.bottomsheet.BottomSheetDialog;
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 public class CalcFragment extends Fragment {
     private TextView textView;
-    private Button button0, button1, button2, button3, button4, button5, button6, button7, button8, button9;
+    private Button button0, button1, button2, button3, button4, button5, button6, button7, button8, button9,advance;
     private Button buttonAC, buttonPlus, buttonMinus, buttonPercent, buttonMultiply, buttonBack, buttonDivide, buttonEqual, buttonDot, buttonSquare;
     private String input,output,number[];
 
@@ -22,6 +26,7 @@ public class CalcFragment extends Fragment {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_calc, container, false);
         textView=view.findViewById(R.id.textView);
+        advance=view.findViewById(R.id.advance);
         button0=view.findViewById(R.id.button0);
         button1=view.findViewById(R.id.button1);
         button2=view.findViewById(R.id.button2);
@@ -182,6 +187,15 @@ public class CalcFragment extends Fragment {
                 calculate(data1);
             }
         });
+        advance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AdvKeyFragment adv=new AdvKeyFragment();
+                
+            }
+        });
+
+
         return view;
     }
     public void calculate(String btdata){

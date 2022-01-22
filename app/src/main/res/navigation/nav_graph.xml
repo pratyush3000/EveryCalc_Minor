@@ -14,10 +14,19 @@
         android:id="@+id/moreFragment"
         android:name="com.example.everycalc.MoreFragment"
         android:label="fragment_more"
-        tools:layout="@layout/fragment_more" />
+        tools:layout="@layout/fragment_more" >
+        <action
+            android:id="@+id/action_moreFragment_to_mensuration3D"
+            app:destination="@id/mensuration3D" />
+    </fragment>
     <fragment
         android:id="@+id/favFragment"
         android:name="com.example.everycalc.FavFragment"
         android:label="fragment_fav"
         tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/mensuration3D"
+        android:name="com.example.everycalc.Mensuration3D"
+        android:label="fragment_mensuration3_d"
+        tools:layout="@layout/fragment_mensuration3_d" />
 </navigation>
