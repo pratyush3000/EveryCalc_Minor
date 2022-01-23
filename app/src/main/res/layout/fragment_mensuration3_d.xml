@@ -6,6 +6,7 @@
     android:background="#000000"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Mensuration3D">
+
     <com.google.android.material.circularreveal.cardview.CircularRevealCardView
         android:layout_width="match_parent"
         android:layout_marginHorizontal="10dp"
@@ -19,7 +20,9 @@
         android:padding="10dp"
         android:background="#191919"
         android:orientation="vertical">
+
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cubeMen3D"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:elevation="1000dp"

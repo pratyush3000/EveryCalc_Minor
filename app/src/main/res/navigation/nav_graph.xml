@@ -28,5 +28,14 @@
         android:id="@+id/mensuration3D"
         android:name="com.example.everycalc.Mensuration3D"
         android:label="fragment_mensuration3_d"
-        tools:layout="@layout/fragment_mensuration3_d" />
+        tools:layout="@layout/fragment_mensuration3_d" >
+        <action
+            android:id="@+id/action_mensuration3D_to_cubeFragment"
+            app:destination="@id/cubeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cubeFragment"
+        android:name="com.example.everycalc.CubeFragment"
+        android:label="fragment_cube"
+        tools:layout="@layout/fragment_cube" />
 </navigation>
