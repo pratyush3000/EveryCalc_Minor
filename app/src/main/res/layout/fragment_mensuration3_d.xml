@@ -82,7 +82,7 @@
 
                     android:layout_width="100dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/rectangle"
+                    android:src="@drawable/cuboid"
                     android:layout_gravity="center"
                     android:layout_marginStart="10dp"
                     />
