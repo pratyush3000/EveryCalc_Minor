@@ -187,13 +187,6 @@ public class CalcFragment extends Fragment {
                 calculate(data1);
             }
         });
-        advance.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AdvKeyFragment adv=new AdvKeyFragment();
-                
-            }
-        });
 
 
         return view;
