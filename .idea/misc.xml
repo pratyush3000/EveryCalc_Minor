@@ -3,31 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/drawable/card1.xml" value="0.25555555555555554" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/drawable/header_background.xml" value="0.1" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/drawable/white_rectangle_background.xml" value="0.1" />
         <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/adv_keyboard.xml" value="0.2" />
         <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/fragment_adv_key.xml" value="0.2" />
         <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/fragment_calc.xml" value="0.16666666666666666" />
         <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/fragment_cube.xml" value="0.2" />
-        <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/fragment_mensuration3_d.xml" value="0.3333333333333333" />
-        <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/fragment_more.xml" value="0.2" />
+        <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/fragment_mensuration2_d.xml" value="0.2" />
+        <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/fragment_mensuration3_d.xml" value="0.16666666666666666" />
+        <entry key="..\:/EverCalcMinor/EveryCalc_Minor/app/src/main/res/layout/fragment_more.xml" value="0.5" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/layout/fragment_calc.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/layout/fragment_mensuration2_d.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/layout/fragment_mensuration3_d.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/layout/fragment_more.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/layout/fragment_fav.xml" value="0.25" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/layout/fragment_more.xml" value="0.264" />
-        <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/layout/grid_item.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/EveryCalc_Minor/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/KIIT/Desktop/andoid development/git try/EveryCalc_Minor/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
