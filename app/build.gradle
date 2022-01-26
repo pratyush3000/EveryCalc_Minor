@@ -42,8 +42,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+
+
+    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+
+
     implementation 'com.google.android.material:material:1.0.0'
 }
