@@ -213,19 +213,20 @@ public class CalcFragment extends Fragment {
                 input+="^";
                 textView.setText(input);
                 break;
-            /*case "√":
+            case "√":
                 Solve();
                 input+="√"+input;
                 textView.setText(input);
-                break;*/
+                break;
             case "=":
                 Solve();
                 output=input;
                 break;
             case "⌫":
                 String newText=input.substring(0,input.length()-1);
-                input=newText;
-                textView.setText(input);
+                if (!newText.equals("")){
+                    input=newText;
+                    textView.setText(input);}
                 break;
             default:
                 if(input==null)
@@ -255,7 +256,7 @@ public class CalcFragment extends Fragment {
             catch(Exception e){
             }
         }
-        /*else if(input.split("√").length==1) {
+        else if(input.split("√").length>1) {
             number = input.split("√");
             try{
                 double sqrt=Math.sqrt(Double.parseDouble(number[0]));
@@ -263,7 +264,7 @@ public class CalcFragment extends Fragment {
             }
             catch(Exception e){
             }
-        }*/
+        }
         else if(input.split("\\^").length>1) {
             number = input.split("\\^");
             try{
