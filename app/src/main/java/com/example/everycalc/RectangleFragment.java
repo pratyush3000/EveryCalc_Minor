@@ -30,13 +30,13 @@ public class RectangleFragment extends Fragment {
         perimeter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                calcArea();
+                calcPerimeter();
             }
         });
         area.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                calcPerimeter();
+                calcArea();
             }
         });
         return view;
