@@ -63,6 +63,7 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewCuboid"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:elevation="1000dp"
@@ -104,6 +105,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewSphere"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:elevation="1000dp"
@@ -142,6 +144,7 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewHemi"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:elevation="1000dp"
@@ -181,6 +184,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewCylinder"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:elevation="1000dp"
@@ -220,6 +224,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewCone"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:elevation="1000dp"
