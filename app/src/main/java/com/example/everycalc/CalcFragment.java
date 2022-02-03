@@ -26,7 +26,6 @@ public class CalcFragment extends Fragment {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_calc, container, false);
         textView=view.findViewById(R.id.textView);
-        advance=view.findViewById(R.id.advance);
         button0=view.findViewById(R.id.button0);
         button1=view.findViewById(R.id.button1);
         button2=view.findViewById(R.id.button2);
@@ -47,6 +46,7 @@ public class CalcFragment extends Fragment {
         buttonEqual=view.findViewById(R.id.buttonEqual);
         buttonDot=view.findViewById(R.id.buttonDot);
         buttonSquare=view.findViewById(R.id.buttonSquare);
+
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -187,13 +187,6 @@ public class CalcFragment extends Fragment {
                 calculate(data1);
             }
         });
-        advance.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AdvKeyFragment adv=new AdvKeyFragment();
-                
-            }
-        });
 
 
         return view;
@@ -220,19 +213,20 @@ public class CalcFragment extends Fragment {
                 input+="^";
                 textView.setText(input);
                 break;
-            /*case "√":
+            case "√":
                 Solve();
                 input+="√"+input;
                 textView.setText(input);
-                break;*/
+                break;
             case "=":
                 Solve();
                 output=input;
                 break;
             case "⌫":
                 String newText=input.substring(0,input.length()-1);
-                input=newText;
-                textView.setText(input);
+                if (!newText.equals("")){
+                    input=newText;
+                    textView.setText(input);}
                 break;
             default:
                 if(input==null)
@@ -262,7 +256,7 @@ public class CalcFragment extends Fragment {
             catch(Exception e){
             }
         }
-        /*else if(input.split("√").length==1) {
+        else if(input.split("√").length>1) {
             number = input.split("√");
             try{
                 double sqrt=Math.sqrt(Double.parseDouble(number[0]));
@@ -270,7 +264,7 @@ public class CalcFragment extends Fragment {
             }
             catch(Exception e){
             }
-        }*/
+        }
         else if(input.split("\\^").length>1) {
             number = input.split("\\^");
             try{

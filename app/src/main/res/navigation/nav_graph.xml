@@ -18,6 +18,9 @@
         <action
             android:id="@+id/action_moreFragment_to_mensuration3D"
             app:destination="@id/mensuration3D" />
+        <action
+            android:id="@+id/action_moreFragment_to_mensuration2D"
+            app:destination="@id/mensuration2D" />
     </fragment>
     <fragment
         android:id="@+id/favFragment"
@@ -32,10 +35,55 @@
         <action
             android:id="@+id/action_mensuration3D_to_cubeFragment"
             app:destination="@id/cubeFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_cuboidFragment"
+            app:destination="@id/cuboidFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_cylinderFragment"
+            app:destination="@id/cylinderFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_coneFragment"
+            app:destination="@id/coneFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_sphereFragment"
+            app:destination="@id/sphereFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_hemiFragment"
+            app:destination="@id/hemiFragment" />
     </fragment>
     <fragment
         android:id="@+id/cubeFragment"
         android:name="com.example.everycalc.CubeFragment"
         android:label="fragment_cube"
         tools:layout="@layout/fragment_cube" />
+    <fragment
+        android:id="@+id/mensuration2D"
+        android:name="com.example.everycalc.Mensuration2D"
+        android:label="fragment_mensuration2_d"
+        tools:layout="@layout/fragment_mensuration2_d" />
+    <fragment
+        android:id="@+id/cuboidFragment"
+        android:name="com.example.everycalc.CuboidFragment"
+        android:label="fragment_cuboid"
+        tools:layout="@layout/fragment_cuboid" />
+    <fragment
+        android:id="@+id/cylinderFragment"
+        android:name="com.example.everycalc.CylinderFragment"
+        android:label="fragment_cylinder"
+        tools:layout="@layout/fragment_cylinder" />
+    <fragment
+        android:id="@+id/coneFragment"
+        android:name="com.example.everycalc.ConeFragment"
+        android:label="fragment_cone"
+        tools:layout="@layout/fragment_cone" />
+    <fragment
+        android:id="@+id/sphereFragment"
+        android:name="com.example.everycalc.SphereFragment"
+        android:label="fragment_sphere"
+        tools:layout="@layout/fragment_sphere" />
+    <fragment
+        android:id="@+id/hemiFragment"
+        android:name="com.example.everycalc.HemiFragment"
+        android:label="fragment_hemi"
+        tools:layout="@layout/fragment_hemi" />
 </navigation>

@@ -257,13 +257,5 @@
                 android:text="="
                 android:textSize="24sp" />
         </LinearLayout>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/advance"
-            android:text="Advance"
-            android:textSize="40dp"
-            android:gravity="center"
-            android:layout_gravity="center"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
