@@ -215,7 +215,7 @@ public class CalcFragment extends Fragment {
                 break;
             case "√":
                 Solve();
-                input+="√"+input;
+                input="√"+input;
                 textView.setText(input);
                 break;
             case "=":
