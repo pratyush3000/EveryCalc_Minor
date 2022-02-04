@@ -53,7 +53,7 @@ public class TriangleFragment extends Fragment {
         s1=Double.parseDouble(sd1);
         s2=Double.parseDouble(sd2);
         s3=Double.parseDouble(sd3);
-        double s=s1+s2+s3;
+        double s=(s1+s2+s3)/2;
         double res=Math.sqrt(s*(s-s1)*(s-s2)*(s-s3));
         result.setText("Area: "+res);
     }
