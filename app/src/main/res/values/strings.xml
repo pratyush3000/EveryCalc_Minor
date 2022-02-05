@@ -8,4 +8,19 @@
     <string name="Here">Here</string>
     <string name="search_elements">search elements</string>
     <string name="Search" />
+    <string name="frag_name">SubjectMenu</string>
+    <string name="physics">Physics</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="maths">Maths</string>
+    <string name="dec">DEC</string>
+    <string name="bee">BEE</string>
+    <string name="coa">COA</string>
+    <string name="daa">DAA</string>
+    <string name="se">SE</string>
+    <string name="os">OS</string>
+    <string name="dbms">DBMS</string>
+    <string name="Converter">Converter</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="more">More</string>
 </resources>
