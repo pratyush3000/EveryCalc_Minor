@@ -11,20 +11,20 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-
-public class CubeFragment extends Fragment {
-    EditText side;
+public class HemiFragment extends Fragment {
+    EditText radius,height;
     TextView result;
-    Button volume, tsa, lsa;
+    Button volume,tsa,csa;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view=inflater.inflate(R.layout.fragment_cube, container, false);
-        side=view.findViewById(R.id.side);
-        result=view.findViewById(R.id.result);
+        View view=inflater.inflate(R.layout.fragment_hemi, container, false);
+        radius=view.findViewById(R.id.radius);
+        result =view.findViewById(R.id.result);
         volume =view.findViewById(R.id.volume);
-        lsa =view.findViewById(R.id.lsa);
+        csa =view.findViewById(R.id.csa);
         tsa =view.findViewById(R.id.tsa);
         volume.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +32,7 @@ public class CubeFragment extends Fragment {
                 calcVol();
             }
         });
-        lsa.setOnClickListener(new View.OnClickListener() {
+        csa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 calcCSA();
@@ -47,33 +47,33 @@ public class CubeFragment extends Fragment {
         return view;
     }
     public void calcVol(){
-        double a=0;
-        String rad=side.getText().toString();
+        double r=0;
+        String rad=radius.getText().toString();
         if (rad.matches("")) {
             result.setText("Field can't be Empty.");
             return;
         }
-        a=Math.abs(Double.parseDouble(rad));
-        result.setText("Volume: "+(a*a*a));
+        r=Math.abs(Double.parseDouble(rad));
+        result.setText("Volume: "+(0.6666666666666667*3.142857142857143*(r*r*r)));
     }
     public void calcTSA(){
         double r=0;
-        String rad=side.getText().toString();
+        String rad=radius.getText().toString();
         if (rad.matches("")) {
             result.setText("Field can't be Empty.");
             return;
         }
-        r=Double.parseDouble(rad);
-        result.setText("Total Surface Area: "+(6*(Math.abs(r)*(Math.abs(r)))));
+        r=Math.abs(Double.parseDouble(rad));
+        result.setText("Total Surface Area: "+(2*3.142857142857143*r*r));
     }
     public void calcCSA(){
         double r=0;
-        String rad=side.getText().toString();
+        String rad=radius.getText().toString();
         if (rad.matches("")) {
             result.setText("Field can't be Empty.");
             return;
         }
-        r=Double.parseDouble(rad);
-        result.setText("Total Surface Area: "+(4*(Math.abs(r)*(Math.abs(r)))));
+        r=Math.abs(Double.parseDouble(rad));
+        result.setText("Curved Surface Area: "+(3*3.142857142857143*r*r));
     }
 }

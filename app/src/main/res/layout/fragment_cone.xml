@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".CubeFragment">
+    tools:context=".ConeFragment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:layout_margin="10dp">
         <LinearLayout
             android:layout_width="wrap_content"
@@ -22,15 +22,37 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal|center_vertical"
-                android:text="Side: "
+                android:text="Radius: "
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/side"
+                android:id="@+id/radius"
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/breadthView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Height: "
+                android:textSize="24sp" />
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                app:layout_constraintStart_toEndOf="@+id/breadthView"
+                tools:ignore="SpeakableTextPresentCheck"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -48,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:gravity="center_horizontal|center_vertical"
-                android:text="⚠️LSA= Lateral Surface Area "
+                android:text="⚠️CSA= Curved Surface Area "
                 android:textSize="24sp" />
             <TextView
                 android:id="@+id/note2View"
@@ -80,12 +102,12 @@
                 app:layout_constraintVertical_bias="0.459" />
 
             <Button
-                android:id="@+id/lsa"
+                android:id="@+id/csa"
                 android:layout_width="110dp"
                 android:layout_height="52dp"
                 android:layout_marginStart="11dp"
                 android:layout_marginEnd="11dp"
-                android:text="LSA"
+                android:text="CSA"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/tsa"
@@ -127,4 +149,4 @@
             app:layout_constraintVertical_bias="0.602" />
     </LinearLayout>
 
-</ScrollView>
+</FrameLayout>

@@ -63,16 +63,18 @@
 
                         <ImageView
                             android:id="@+id/image1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/physics"
-                            android:src="@drawable/physics" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/area"
+                            android:src="@drawable/area" />
 
                         <TextView
                             android:id="@+id/t1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/physics"
+                            android:text="@string/area"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -101,16 +103,18 @@
 
                         <ImageView
                             android:id="@+id/image2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/chemistry"
-                            android:src="@drawable/chemistry" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/volume"
+                            android:src="@drawable/measure" />
 
                         <TextView
                             android:id="@+id/t2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/chemistry"
+                            android:text="@string/volume"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -139,16 +143,18 @@
 
                         <ImageView
                             android:id="@+id/image3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/Converter"
-                            android:src="@drawable/converter" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/angle"
+                            android:src="@drawable/angle" />
 
                         <TextView
                             android:id="@+id/t3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/Converter"
+                            android:text="@string/angle"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -177,16 +183,18 @@
 
                         <ImageView
                             android:id="@+id/image4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/dec"
-                            android:src="@drawable/dec" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/energy"
+                            android:src="@drawable/energy" />
 
                         <TextView
                             android:id="@+id/t4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/dec"
+                            android:text="@string/energy"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -215,16 +223,18 @@
 
                         <ImageView
                             android:id="@+id/image5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/bee"
-                            android:src="@drawable/bee" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/mass"
+                            android:src="@drawable/mass" />
 
                         <TextView
                             android:id="@+id/t5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/bee"
+                            android:layout_margin="5px"
+                            android:text="@string/mass"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -253,16 +263,18 @@
 
                         <ImageView
                             android:id="@+id/image6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/physics"
-                            android:src="@drawable/ic_launcher_background" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/numberSystem"
+                            android:src="@drawable/binarynumber" />
 
                         <TextView
                             android:id="@+id/t6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/coa"
+                            android:text="@string/numberSystem"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -292,16 +304,18 @@
 
                         <ImageView
                             android:id="@+id/image7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/physics"
-                            android:src="@drawable/ic_launcher_background" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/time"
+                            android:src="@drawable/hourglass" />
 
                         <TextView
                             android:id="@+id/t7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/daa"
+                            android:text="@string/time"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -330,16 +344,18 @@
 
                         <ImageView
                             android:id="@+id/image8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/physics"
-                            android:src="@drawable/ic_launcher_background" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/pressure"
+                            android:src="@drawable/pressure" />
 
                         <TextView
                             android:id="@+id/t8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/se"
+                            android:text="@string/pressure"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -369,16 +385,18 @@
 
                         <ImageView
                             android:id="@+id/image9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/physics"
-                            android:src="@drawable/ic_launcher_background" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/speed"
+                            android:src="@drawable/speed" />
 
                         <TextView
                             android:id="@+id/t9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/os"
+                            android:text="@string/speed"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -407,16 +425,18 @@
 
                         <ImageView
                             android:id="@+id/image10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="@string/physics"
-                            android:src="@drawable/ic_launcher_background" />
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_margin="10px"
+                            android:contentDescription="@string/temperature"
+                            android:src="@drawable/temperature" />
 
                         <TextView
                             android:id="@+id/t10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/dbms"
+                            android:text="@string/temperature"
+                            android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />

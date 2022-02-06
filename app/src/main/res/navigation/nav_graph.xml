@@ -38,6 +38,21 @@
         <action
             android:id="@+id/action_mensuration3D_to_cubeFragment"
             app:destination="@id/cubeFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_cuboidFragment"
+            app:destination="@id/cuboidFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_cylinderFragment"
+            app:destination="@id/cylinderFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_coneFragment"
+            app:destination="@id/coneFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_sphereFragment"
+            app:destination="@id/sphereFragment" />
+        <action
+            android:id="@+id/action_mensuration3D_to_hemiFragment"
+            app:destination="@id/hemiFragment" />
     </fragment>
     <fragment
         android:id="@+id/cubeFragment"
@@ -53,5 +68,80 @@
         android:id="@+id/converterMenuFragment"
         android:name="com.example.everycalc.ConverterMenuFragment"
         android:label="fragment_converter_menu"
-        tools:layout="@layout/fragment_converter_menu" />
+        tools:layout="@layout/fragment_converter_menu" >
+        tools:layout="@layout/fragment_mensuration2_d" >
+        <action
+            android:id="@+id/action_mensuration2D_to_rectangleFragment"
+            app:destination="@id/rectangleFragment" />
+        <action
+            android:id="@+id/action_mensuration2D_to_circleFragment"
+            app:destination="@id/circleFragment" />
+        <action
+            android:id="@+id/action_mensuration2D_to_triangleFragment"
+            app:destination="@id/triangleFragment" />
+        <action
+            android:id="@+id/action_mensuration2D_to_rhombusFragment"
+            app:destination="@id/rhombusFragment" />
+        <action
+            android:id="@+id/action_mensuration2D_to_parallelogramFragment"
+            app:destination="@id/parallelogramFragment" />
+        <action
+            android:id="@+id/action_mensuration2D_to_trapeziumFragment"
+            app:destination="@id/trapeziumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cuboidFragment"
+        android:name="com.example.everycalc.CuboidFragment"
+        android:label="fragment_cuboid"
+        tools:layout="@layout/fragment_cuboid" />
+    <fragment
+        android:id="@+id/cylinderFragment"
+        android:name="com.example.everycalc.CylinderFragment"
+        android:label="fragment_cylinder"
+        tools:layout="@layout/fragment_cylinder" />
+    <fragment
+        android:id="@+id/coneFragment"
+        android:name="com.example.everycalc.ConeFragment"
+        android:label="fragment_cone"
+        tools:layout="@layout/fragment_cone" />
+    <fragment
+        android:id="@+id/sphereFragment"
+        android:name="com.example.everycalc.SphereFragment"
+        android:label="fragment_sphere"
+        tools:layout="@layout/fragment_sphere" />
+    <fragment
+        android:id="@+id/hemiFragment"
+        android:name="com.example.everycalc.HemiFragment"
+        android:label="fragment_hemi"
+        tools:layout="@layout/fragment_hemi" />
+    <fragment
+        android:id="@+id/rectangleFragment"
+        android:name="com.example.everycalc.RectangleFragment"
+        android:label="fragment_rectangle"
+        tools:layout="@layout/fragment_rectangle" />
+    <fragment
+        android:id="@+id/circleFragment"
+        android:name="com.example.everycalc.CircleFragment"
+        android:label="fragment_circle"
+        tools:layout="@layout/fragment_circle" />
+    <fragment
+        android:id="@+id/triangleFragment"
+        android:name="com.example.everycalc.TriangleFragment"
+        android:label="fragment_triangle"
+        tools:layout="@layout/fragment_triangle" />
+    <fragment
+        android:id="@+id/rhombusFragment"
+        android:name="com.example.everycalc.RhombusFragment"
+        android:label="fragment_rhombus"
+        tools:layout="@layout/fragment_rhombus" />
+    <fragment
+        android:id="@+id/parallelogramFragment"
+        android:name="com.example.everycalc.ParallelogramFragment"
+        android:label="fragment_parallelogram"
+        tools:layout="@layout/fragment_parallelogram" />
+    <fragment
+        android:id="@+id/trapeziumFragment"
+        android:name="com.example.everycalc.TrapeziumFragment"
+        android:label="fragment_trapezium"
+        tools:layout="@layout/fragment_trapezium" />
 </navigation>
