@@ -63,12 +63,6 @@
         android:id="@+id/mensuration2D"
         android:name="com.example.everycalc.Mensuration2D"
         android:label="fragment_mensuration2_d"
-        tools:layout="@layout/fragment_mensuration2_d" />
-    <fragment
-        android:id="@+id/converterMenuFragment"
-        android:name="com.example.everycalc.ConverterMenuFragment"
-        android:label="fragment_converter_menu"
-        tools:layout="@layout/fragment_converter_menu" >
         tools:layout="@layout/fragment_mensuration2_d" >
         <action
             android:id="@+id/action_mensuration2D_to_rectangleFragment"
@@ -88,6 +82,14 @@
         <action
             android:id="@+id/action_mensuration2D_to_trapeziumFragment"
             app:destination="@id/trapeziumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/converterMenuFragment"
+        android:name="com.example.everycalc.ConverterMenuFragment"
+        android:label="fragment_converter_menu"
+        tools:layout="@layout/fragment_converter_menu" >
+        tools:layout="@layout/fragment_mensuration2_d" >
+
     </fragment>
     <fragment
         android:id="@+id/cuboidFragment"
