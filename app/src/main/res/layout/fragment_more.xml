@@ -137,6 +137,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/converterMenu"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -154,6 +155,14 @@
                                 android:id="@+id/animatearrow1"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
 
                                 android:src="@drawable/play"
                                 app:layout_constraintBottom_toBottomOf="parent"
