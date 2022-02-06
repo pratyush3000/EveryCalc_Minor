@@ -47,29 +47,30 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
                         android:layout_gravity="center"
+                        android:layout_margin="20dp"
                         app:cardCornerRadius="20dp">
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="vertical">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/animate2"
-                            android:layout_width="90dp"
-                            android:layout_height="92dp"
-                            android:elevation="23dp"
-                            android:src="@drawable/length"
-                            app:layout_constraintStart_toStartOf="parent"
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/animate2"
+                                android:layout_width="90dp"
+                                android:layout_height="92dp"
+                                android:elevation="23dp"
+                                android:src="@drawable/length"
+                                app:layout_constraintStart_toStartOf="parent"
 
-                            app:layout_constraintTop_toTopOf="parent" />
+                                app:layout_constraintTop_toTopOf="parent" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Conv1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Length" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -79,6 +80,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         app:cardCornerRadius="20dp">
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -86,19 +88,20 @@
                             android:gravity="center"
                             android:orientation="vertical">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/animate3"
-                            android:layout_width="90dp"
-                            android:layout_height="92dp"
-                            android:elevation="23dp"
-                            android:src="@drawable/number"
-                            app:layout_constraintStart_toStartOf="parent"
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/animate3"
+                                android:layout_width="90dp"
+                                android:layout_height="92dp"
+                                android:elevation="23dp"
+                                android:src="@drawable/number"
+                                app:layout_constraintStart_toStartOf="parent"
 
-                            app:layout_constraintTop_toTopOf="parent" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Conv2"/>
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Conv2" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -108,25 +111,27 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         app:cardCornerRadius="20dp">
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/animate1"
-                            android:layout_width="90dp"
-                            android:layout_height="92dp"
-                            android:elevation="32dp"
-                            android:src="@drawable/conversion"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/animate1"
+                                android:layout_width="90dp"
+                                android:layout_height="92dp"
+                                android:elevation="32dp"
+                                android:src="@drawable/conversion"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="conv3"/>
+                                android:text="Currency" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -135,38 +140,31 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        app:cardCornerRadius="20dp"
-                        android:layout_margin="20dp">
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp">
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:orientation="vertical">
 
 
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/animatearrow1"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
 
+                                android:src="@drawable/play"
+                                app:layout_constraintBottom_toBottomOf="parent"
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/animatearrow1"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-
-                        android:src="@drawable/play"
-                        app:layout_constraintBottom_toBottomOf="parent"
-
-                        app:layout_constraintStart_toEndOf="@id/animate3"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.507"
-                        />
+                                app:layout_constraintStart_toEndOf="@id/animate3"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.507" />
                         </LinearLayout>
 
 
                     </androidx.cardview.widget.CardView>
-
-
-
-
-
 
 
                 </LinearLayout>
@@ -190,8 +188,8 @@
                         android:id="@+id/cardView2d"
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
-                        app:cardCornerRadius="20dp"
-                        android:layout_margin="20dp">
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -223,8 +221,8 @@
                         android:id="@+id/cardView3d"
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
-                        app:cardCornerRadius="20dp"
-                        android:layout_margin="20dp">
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -245,7 +243,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:gravity="center"
-                                android:text="2D"
+                                android:text="3D"
                                 android:textSize="20sp" />
                         </LinearLayout>
 
@@ -261,7 +259,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/scrollView2"
-                android:layout_marginTop="79dp">
+                android:layout_marginTop="40dp">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="wrap_content"
@@ -379,11 +377,11 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="46dp"
-                android:layout_alignBottom="@+id/scrollView2"
                 android:layout_below="@+id/scrollView2"
-                android:layout_marginBottom="-58dp"
+                android:layout_alignBottom="@+id/scrollView2"
                 android:layout_marginLeft="16sp"
                 android:layout_marginTop="23dp"
+                android:layout_marginBottom="-58dp"
                 android:text="Economics"
                 android:textSize="18sp" />
 
