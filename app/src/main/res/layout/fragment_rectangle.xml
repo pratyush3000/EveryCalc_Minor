@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".CubeFragment">
+    tools:context=".RectangleFragment">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,11 +23,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal|center_vertical"
-                android:text="Side: "
+                android:text="Length: "
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/side"
+                android:id="@+id/length"
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
@@ -36,56 +37,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_margin="5dp"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/note1View"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="⚠️LSA= Lateral Surface Area "
-                android:textSize="24sp" />
-            <TextView
-                android:id="@+id/note2View"
+                android:id="@+id/breadthView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal|center_vertical"
-                android:text="⚠️TSA= Total Surface Area "
-                android:layout_margin="5dp"
+                android:text="Breadth: "
                 android:textSize="24sp" />
+            <EditText
+                android:id="@+id/breadth"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                app:layout_constraintStart_toEndOf="@+id/breadthView"
+                tools:ignore="SpeakableTextPresentCheck"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:layout_marginTop="30dp">
-            <Button
-                android:id="@+id/volume"
-                android:layout_width="110dp"
-                android:layout_height="52dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="11dp"
-                android:text="Volume"
-                android:textSize="16sp"
-                app:iconPadding="8dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/csa"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.459" />
 
             <Button
-                android:id="@+id/lsa"
-                android:layout_width="110dp"
+                android:id="@+id/area"
+                android:layout_width="170dp"
                 android:layout_height="52dp"
                 android:layout_marginStart="11dp"
                 android:layout_marginEnd="11dp"
-                android:text="LSA"
+                android:text="Area"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/tsa"
@@ -93,12 +80,12 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.459" />
             <Button
-                android:id="@+id/tsa"
-                android:layout_width="110dp"
+                android:id="@+id/perimeter"
+                android:layout_width="170dp"
                 android:layout_height="52dp"
                 android:layout_marginStart="11dp"
                 android:layout_marginEnd="16dp"
-                android:text="TSA"
+                android:text="Perimeter"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

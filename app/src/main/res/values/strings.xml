@@ -8,4 +8,20 @@
     <string name="Here">Here</string>
     <string name="search_elements">search elements</string>
     <string name="Search" />
+    <string name="frag_name">SubjectMenu</string>
+    <string name="area">Area</string>
+    <string name="volume">Volume</string>
+    <string name="maths">Maths</string>
+    <string name="energy">Energy</string>
+    <string name="mass">Mass</string>
+    <string name="numberSystem">NumberSystem</string>
+    <string name="time">Time</string>
+    <string name="pressure">Pressure</string>
+    <string name="speed">Speed</string>
+    <string name="temperature">Temperature</string>
+    <string name="angle">Angle</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="more">More</string>
+    <string name="Converter">Converter</string>
 </resources>
