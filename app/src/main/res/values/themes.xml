@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.EveryCalc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#FBAF19</item>
-        <item name="colorPrimaryVariant">#FBAF19</item>
+        <item name="colorPrimary">@color/text_color</item>
+        <item name="colorPrimaryVariant">@color/text_color</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -14,8 +14,8 @@
         <!-- Customize your theme here. -->
     </style>
     <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
-        <item name="colorPrimary">#FBAF19</item>
-        <item name="android:textColorSecondary">#FBAF19</item>
+        <item name="colorPrimary">@color/text_color</item>
+        <item name="android:textColorSecondary">@color/text_color</item>
     </style>
 
     <style name="BottomSheetDialogTheme" parent="Theme.MaterialComponents.BottomSheetDialog">
