@@ -279,7 +279,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardView"
+
+                    android:id="@+id/timeConverter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_row="3"
@@ -305,7 +306,7 @@
                             android:layout_height="300px"
                             android:layout_margin="10px"
                             android:contentDescription="@string/time"
-                            android:src="@drawable/hourglass" />
+                            android:src="@drawable/time" />
 
                         <TextView
                             android:id="@+id/t7"

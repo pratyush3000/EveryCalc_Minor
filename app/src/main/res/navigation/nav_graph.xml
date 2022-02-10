@@ -111,6 +111,9 @@
         <action
             android:id="@+id/action_converterMenuFragment_to_massConverterFragment"
             app:destination="@id/massConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_timeConverterFragment"
+            app:destination="@id/timeConverterFragment" />
     </fragment>
     <fragment
         android:id="@+id/cuboidFragment"
@@ -198,5 +201,10 @@
         android:name="com.example.everycalc.MassConverterFragment"
         android:label="fragment_mass_converter"
         tools:layout="@layout/fragment_mass_converter" />
+    <fragment
+        android:id="@+id/timeConverterFragment"
+        android:name="com.example.everycalc.TimeConverterFragment"
+        android:label="fragment_time_converter"
+        tools:layout="@layout/fragment_time_converter" />
 
 </navigation>
