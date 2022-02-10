@@ -5,11 +5,13 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ConverterMenuFragment">
-    <androidx.constraintlayout.widget.ConstraintLayout
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
         <TextView
             android:id="@+id/subject_view"
             android:layout_width="wrap_content"
@@ -17,22 +19,12 @@
             android:text="@string/Converter"
             android:textAlignment="center"
             android:textSize="30sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-            app:layout_constraintEnd_toStartOf="@+id/searchView"
-            app:layout_constraintHorizontal_bias="0.123"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.761" />
+            android:textStyle="bold"/>
 
         <ScrollView
             android:id="@+id/scrollView2"
-            android:layout_width="416dp"
-            android:layout_height="676dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.571"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/subject_view">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <GridLayout
                 android:layout_width="match_parent"
@@ -42,6 +34,7 @@
                 android:rowCount="5">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/areaConverter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_row="0"
@@ -82,6 +75,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/volumeConverter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_row="0"
@@ -122,6 +116,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/angleConverter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_row="1"
@@ -162,6 +157,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/energyConverter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_row="1"
@@ -276,7 +272,7 @@
                             android:text="@string/numberSystem"
                             android:layout_margin="5px"
                             android:textAlignment="center"
-                            android:textSize="20sp"
+                            android:textSize="18sp"
                             android:textStyle="bold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -363,7 +359,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardView2"
+                    android:id="@+id/speedConverter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_row="4"
@@ -448,20 +444,6 @@
 
         </ScrollView>
 
-        <SearchView
-            android:id="@+id/searchView"
-            android:layout_width="130dp"
-            android:layout_height="60dp"
-            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.989"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" >
-
-        </SearchView>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+    </LinearLayout>
 
 </ScrollView>
