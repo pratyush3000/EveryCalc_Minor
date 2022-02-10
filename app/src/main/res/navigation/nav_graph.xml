@@ -105,6 +105,9 @@
         <action
             android:id="@+id/action_converterMenuFragment_to_speedConverterFragment"
             app:destination="@id/speedConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_temperatureConverterFragment"
+            app:destination="@id/temperatureConverterFragment" />
     </fragment>
     <fragment
         android:id="@+id/cuboidFragment"
@@ -182,4 +185,9 @@
         android:id="@+id/speedConverterFragment"
         android:name="com.example.everycalc.SpeedConverterFragment"
         android:label="SpeedConverterFragment" />
+    <fragment
+        android:id="@+id/temperatureConverterFragment"
+        android:name="com.example.everycalc.TemperatureConverterFragment"
+        android:label="fragment_temperature_converter"
+        tools:layout="@layout/fragment_temperature_converter" />
 </navigation>
