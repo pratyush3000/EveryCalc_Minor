@@ -108,6 +108,9 @@
         <action
             android:id="@+id/action_converterMenuFragment_to_temperatureConverterFragment"
             app:destination="@id/temperatureConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_massConverterFragment"
+            app:destination="@id/massConverterFragment" />
     </fragment>
     <fragment
         android:id="@+id/cuboidFragment"
@@ -190,4 +193,10 @@
         android:name="com.example.everycalc.TemperatureConverterFragment"
         android:label="fragment_temperature_converter"
         tools:layout="@layout/fragment_temperature_converter" />
+    <fragment
+        android:id="@+id/massConverterFragment"
+        android:name="com.example.everycalc.MassConverterFragment"
+        android:label="fragment_mass_converter"
+        tools:layout="@layout/fragment_mass_converter" />
+
 </navigation>

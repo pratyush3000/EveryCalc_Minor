@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 
 
 public class ConverterMenuFragment extends Fragment {
-    CardView volume,area,angle,energy,speed,temperature;
+    CardView volume,area,angle,energy,speed,temperature,mass;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class ConverterMenuFragment extends Fragment {
         energy = view.findViewById(R.id.energyConverter);
         speed = view.findViewById(R.id.speedConverter);
         temperature = view.findViewById(R.id.temperatureConverter);
+        mass = view.findViewById(R.id.massConverter);
         volume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,6 +62,13 @@ public class ConverterMenuFragment extends Fragment {
                 Navigation.findNavController(view).navigate(R.id.action_converterMenuFragment_to_temperatureConverterFragment);
             }
         });
+        mass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.action_converterMenuFragment_to_massConverterFragment);
+            }
+        });
+
         return view;
     }
 }
