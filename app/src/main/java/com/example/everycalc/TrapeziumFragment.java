@@ -155,10 +155,11 @@ public class TrapeziumFragment extends Fragment {
             h=Double.parseDouble(hei);
             result.setText("Area: "+(0.5*h*(s3+s4))+"\nPerimeter: "+(Math.abs(s1)+Math.abs(s2)+Math.abs(s3)+Math.abs(s4)));
         }
-        else{
-            result.setText("Area: Required fields empty for calculating Area.\n Perimeter: Required fields empty for calculating Perimeter.");
-            return;
+        else if(!hei.equals("") && !sd3.equals("") && !sd4.equals("")){
+            s3=Double.parseDouble(sd3);
+            s4=Double.parseDouble(sd4);
+            h=Double.parseDouble(hei);
+            result.setText("Area: "+(0.5*h*(s3+s4))+"\nPerimeter: Required fields empty for calculating Perimeter.");
         }
-
     }
 }
