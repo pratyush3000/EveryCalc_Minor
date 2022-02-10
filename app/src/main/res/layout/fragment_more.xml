@@ -7,7 +7,6 @@
 
 <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_margin="5dp"
     android:layout_height="match_parent"
     tools:context=".MoreFragment">
 
@@ -30,7 +29,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <HorizontalScrollView
                 android:id="@+id/scrollView1"
@@ -59,18 +58,18 @@
 
                             <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/animate2"
-                                android:layout_width="90dp"
-                                android:layout_height="92dp"
-                                android:elevation="23dp"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:elevation="15dp"
                                 android:src="@drawable/length"
                                 app:layout_constraintStart_toStartOf="parent"
-
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Length" />
+                                android:text="Area"
+                                android:textSize="20sp" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -90,9 +89,9 @@
 
                             <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/animate3"
-                                android:layout_width="90dp"
-                                android:layout_height="92dp"
-                                android:elevation="23dp"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:elevation="15dp"
                                 android:src="@drawable/number"
                                 app:layout_constraintStart_toStartOf="parent"
 
@@ -101,7 +100,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Conv2" />
+                                android:text="Angle"
+                                android:textSize="20sp" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -121,9 +121,9 @@
 
                             <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/animate1"
-                                android:layout_width="90dp"
-                                android:layout_height="92dp"
-                                android:elevation="32dp"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:elevation="15dp"
                                 android:src="@drawable/conversion"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
@@ -131,7 +131,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Currency" />
+                                android:text="Volume"
+                                android:textSize="20sp" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -150,19 +151,10 @@
                             android:gravity="center"
                             android:orientation="vertical">
 
-
                             <de.hdodenhof.circleimageview.CircleImageView
-                                android:id="@+id/animatearrow1"
+
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                            android:orientation="vertical"
-                            android:gravity="center">
-                            </de.hdodenhof.circleimageview.CircleImageView>
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
 
                                 android:src="@drawable/play"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -186,7 +178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/scrollView1"
-                android:layout_marginTop="75dp">
+                android:layout_marginTop="40dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -209,10 +201,10 @@
 
                             <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/animate4"
-                                android:layout_width="90dp"
-                                android:layout_height="92dp"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
                                 android:layout_gravity="center"
-                                android:elevation="12dp"
+                                android:elevation="15dp"
                                 android:src="@drawable/twod" />
 
                             <TextView
@@ -220,7 +212,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:gravity="center"
-                                android:text="2D"
+                                android:text="2-D"
                                 android:textSize="20sp" />
                         </LinearLayout>
 
@@ -241,9 +233,9 @@
 
                             <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/animate5"
-                                android:layout_width="90dp"
-                                android:layout_height="92dp"
-                                android:elevation="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:elevation="15dp"
                                 android:src="@drawable/threed" />
 
 
@@ -252,7 +244,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:gravity="center"
-                                android:text="3D"
+                                android:text="2D"
                                 android:textSize="20sp" />
                         </LinearLayout>
 
@@ -268,7 +260,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/scrollView2"
-                android:layout_marginTop="40dp">
+                android:layout_marginTop="30dp">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="wrap_content"
@@ -293,7 +285,6 @@
                         android:elevation="12dp"
                         android:src="@drawable/profit"
                         app:layout_constraintStart_toStartOf="parent"
-
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <de.hdodenhof.circleimageview.CircleImageView
@@ -386,11 +377,11 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="46dp"
-                android:layout_below="@+id/scrollView2"
                 android:layout_alignBottom="@+id/scrollView2"
+                android:layout_below="@+id/scrollView2"
+                android:layout_marginBottom="-58dp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginTop="23dp"
-                android:layout_marginBottom="-58dp"
                 android:text="Economics"
                 android:textSize="18sp" />
 
@@ -398,13 +389,13 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="46dp"
-                android:layout_alignBottom="@+id/scrollView1"
                 android:layout_below="@+id/scrollView1"
-                android:layout_marginBottom="-58dp"
+                android:layout_alignBottom="@+id/scrollView1"
                 android:layout_marginLeft="16sp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="-30dp"
                 android:text="Mensuration"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
 
             <TextView
@@ -417,18 +408,18 @@
                 android:layout_marginLeft="16sp"
                 android:layout_marginTop="23dp"
                 android:text="Physics"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/textView3"
-                android:layout_marginLeft="16sp"
                 android:layout_marginStart="0dp"
+                android:layout_marginLeft="16sp"
                 android:layout_marginTop="66dp"
                 android:text="Converter"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
 
         </RelativeLayout>

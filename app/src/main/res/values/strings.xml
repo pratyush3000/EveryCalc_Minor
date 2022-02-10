@@ -24,4 +24,9 @@
     <string name="favorite">Favorite</string>
     <string name="more">More</string>
     <string name="Converter">Converter</string>
+    <string name="volume_converter">Volume Converter</string>
+    <string name="area_converter">Area Converter</string>
+    <string name="angle_converter">Angle Converter</string>
+    <string name="energy_converter">Energy Converter</string>
+    <string name="speed_converter">Speed Converter</string>
 </resources>

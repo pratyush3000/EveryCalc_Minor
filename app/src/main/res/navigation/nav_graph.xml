@@ -90,6 +90,21 @@
         tools:layout="@layout/fragment_converter_menu" >
         tools:layout="@layout/fragment_mensuration2_d" >
 
+        <action
+            android:id="@+id/action_converterMenuFragment_to_volumeConverterFragment"
+            app:destination="@id/volumeConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_areaConverterFragment"
+            app:destination="@id/areaConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_angleConverterFragment"
+            app:destination="@id/angleConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_energyConverterFragment"
+            app:destination="@id/energyConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_speedConverterFragment"
+            app:destination="@id/speedConverterFragment" />
     </fragment>
     <fragment
         android:id="@+id/cuboidFragment"
@@ -146,4 +161,25 @@
         android:name="com.example.everycalc.TrapeziumFragment"
         android:label="fragment_trapezium"
         tools:layout="@layout/fragment_trapezium" />
+    <fragment
+        android:id="@+id/volumeConverterFragment"
+        android:name="com.example.everycalc.VolumeConverterFragment"
+        android:label="fragment_volume_converter"
+        tools:layout="@layout/fragment_volume_converter" />
+    <fragment
+        android:id="@+id/areaConverterFragment"
+        android:name="com.example.everycalc.AreaConverterFragment"
+        android:label="AreaConverterFragment" />
+    <fragment
+        android:id="@+id/angleConverterFragment"
+        android:name="com.example.everycalc.AngleConverterFragment"
+        android:label="AngleConverterFragment" />
+    <fragment
+        android:id="@+id/energyConverterFragment"
+        android:name="com.example.everycalc.EnergyConverterFragment"
+        android:label="EnergyConverterFragment" />
+    <fragment
+        android:id="@+id/speedConverterFragment"
+        android:name="com.example.everycalc.SpeedConverterFragment"
+        android:label="SpeedConverterFragment" />
 </navigation>
