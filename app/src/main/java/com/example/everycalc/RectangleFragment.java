@@ -46,7 +46,7 @@ public class RectangleFragment extends Fragment {
         String len=length.getText().toString();
         String bre=breadth.getText().toString();
         if (len.matches("") || bre.matches("")) {
-            result.setText("Both fields can't be Empty.");
+            result.setText("Required fields can't be Empty.");
             return;
         }
         l=Double.parseDouble(len);
@@ -58,7 +58,7 @@ public class RectangleFragment extends Fragment {
         String len=length.getText().toString();
         String bre=breadth.getText().toString();
         if (len.matches("") || bre.matches("")) {
-            result.setText("Both fields can't be Empty.");
+            result.setText("Required fields can't be Empty.");
             return;
         }
         l=Double.parseDouble(len);
