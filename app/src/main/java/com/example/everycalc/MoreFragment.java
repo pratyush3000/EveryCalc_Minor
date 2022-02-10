@@ -13,7 +13,7 @@ import android.widget.Button;
 
 
 public class MoreFragment extends Fragment {
-   CardView M2d,M3d,converterMenu;
+   CardView M2d,M3d,converterMenu,area,angle,volume;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -22,6 +22,10 @@ public class MoreFragment extends Fragment {
         M2d=view.findViewById(R.id.cardView2d);
         M3d=view.findViewById(R.id.cardView3d);
         converterMenu=view.findViewById(R.id.converterMenu);
+        area=view.findViewById(R.id.areaConverter);
+        angle=view.findViewById(R.id.angleConverter);
+        volume=view.findViewById(R.id.volumeConverter);
+
         M2d.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +42,24 @@ public class MoreFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(view).navigate(R.id.action_moreFragment_to_converterMenuFragment);
+            }
+        });
+        area.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.action_moreFragment_to_areaConverterFragment);
+            }
+        });
+        angle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.action_moreFragment_to_angleConverterFragment);
+            }
+        });
+        volume.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.action_moreFragment_to_volumeConverterFragment);
             }
         });
         return view;

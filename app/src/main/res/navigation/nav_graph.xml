@@ -24,6 +24,15 @@
         <action
             android:id="@+id/action_moreFragment_to_converterMenuFragment"
             app:destination="@id/converterMenuFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_areaConverterFragment"
+            app:destination="@id/areaConverterFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_angleConverterFragment"
+            app:destination="@id/angleConverterFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_volumeConverterFragment"
+            app:destination="@id/volumeConverterFragment" />
     </fragment>
     <fragment
         android:id="@+id/favFragment"
