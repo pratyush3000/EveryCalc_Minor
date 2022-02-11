@@ -114,6 +114,9 @@
         <action
             android:id="@+id/action_converterMenuFragment_to_timeConverterFragment"
             app:destination="@id/timeConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_dataConverterFragment"
+            app:destination="@id/dataConverterFragment" />
     </fragment>
     <fragment
         android:id="@+id/cuboidFragment"
@@ -206,5 +209,9 @@
         android:name="com.example.everycalc.TimeConverterFragment"
         android:label="fragment_time_converter"
         tools:layout="@layout/fragment_time_converter" />
+    <fragment
+        android:id="@+id/dataConverterFragment"
+        android:name="com.example.everycalc.DataConverterFragment"
+        android:label="DataConverterFragment" />
 
 </navigation>

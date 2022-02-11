@@ -239,6 +239,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/dataConverter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_row="2"
@@ -263,14 +264,14 @@
                             android:layout_width="300px"
                             android:layout_height="300px"
                             android:layout_margin="10px"
-                            android:contentDescription="@string/numberSystem"
+                            android:contentDescription="Data"
                             android:src="@drawable/binarynumber" />
 
                         <TextView
                             android:id="@+id/t6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/numberSystem"
+                            android:text="Data"
                             android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="18sp"
@@ -306,7 +307,7 @@
                             android:layout_height="300px"
                             android:layout_margin="10px"
                             android:contentDescription="@string/time"
-                            android:src="@drawable/time" />
+                            android:src="@drawable/clock" />
 
                         <TextView
                             android:id="@+id/t7"

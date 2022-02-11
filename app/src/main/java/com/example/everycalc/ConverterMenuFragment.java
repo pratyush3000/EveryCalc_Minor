@@ -26,7 +26,7 @@ public class ConverterMenuFragment extends Fragment {
         speed = view.findViewById(R.id.speedConverter);
         temperature = view.findViewById(R.id.temperatureConverter);
         mass = view.findViewById(R.id.massConverter);
-//        data=view.findViewById(R.id.dataConverter);
+        data=view.findViewById(R.id.dataConverter);
         time = view.findViewById(R.id.timeConverter);
 
         volume.setOnClickListener(new View.OnClickListener() {
@@ -71,18 +71,19 @@ public class ConverterMenuFragment extends Fragment {
                 Navigation.findNavController(view).navigate(R.id.action_converterMenuFragment_to_massConverterFragment);
             }
         });
-//        data.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Navigation.findNavController(view).navigate(R.id.action_converterMenuFragment_to_dataConverterFragment);
-//            }
-//        });
+        data.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.action_converterMenuFragment_to_dataConverterFragment);
+            }
+        });
         time.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(view).navigate(R.id.action_converterMenuFragment_to_timeConverterFragment);
             }
         });
+
 
         return view;
     }
