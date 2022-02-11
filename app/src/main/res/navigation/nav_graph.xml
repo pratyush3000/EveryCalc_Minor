@@ -105,6 +105,18 @@
         <action
             android:id="@+id/action_converterMenuFragment_to_speedConverterFragment"
             app:destination="@id/speedConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_temperatureConverterFragment"
+            app:destination="@id/temperatureConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_massConverterFragment"
+            app:destination="@id/massConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_timeConverterFragment"
+            app:destination="@id/timeConverterFragment" />
+        <action
+            android:id="@+id/action_converterMenuFragment_to_dataConverterFragment"
+            app:destination="@id/dataConverterFragment" />
     </fragment>
     <fragment
         android:id="@+id/cuboidFragment"
@@ -182,4 +194,24 @@
         android:id="@+id/speedConverterFragment"
         android:name="com.example.everycalc.SpeedConverterFragment"
         android:label="SpeedConverterFragment" />
+    <fragment
+        android:id="@+id/temperatureConverterFragment"
+        android:name="com.example.everycalc.TemperatureConverterFragment"
+        android:label="fragment_temperature_converter"
+        tools:layout="@layout/fragment_temperature_converter" />
+    <fragment
+        android:id="@+id/massConverterFragment"
+        android:name="com.example.everycalc.MassConverterFragment"
+        android:label="fragment_mass_converter"
+        tools:layout="@layout/fragment_mass_converter" />
+    <fragment
+        android:id="@+id/timeConverterFragment"
+        android:name="com.example.everycalc.TimeConverterFragment"
+        android:label="fragment_time_converter"
+        tools:layout="@layout/fragment_time_converter" />
+    <fragment
+        android:id="@+id/dataConverterFragment"
+        android:name="com.example.everycalc.DataConverterFragment"
+        android:label="DataConverterFragment" />
+
 </navigation>
