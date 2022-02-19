@@ -33,6 +33,9 @@
         <action
             android:id="@+id/action_moreFragment_to_volumeConverterFragment"
             app:destination="@id/volumeConverterFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_physicsMenuFragment"
+            app:destination="@id/physicsMenuFragment" />
     </fragment>
     <fragment
         android:id="@+id/favFragment"
@@ -222,5 +225,10 @@
         android:id="@+id/dataConverterFragment"
         android:name="com.example.everycalc.DataConverterFragment"
         android:label="DataConverterFragment" />
+    <fragment
+        android:id="@+id/physicsMenuFragment"
+        android:name="com.example.everycalc.PhysicsMenuFragment"
+        android:label="fragment_physics_menu"
+        tools:layout="@layout/fragment_physics_menu" />
 
 </navigation>

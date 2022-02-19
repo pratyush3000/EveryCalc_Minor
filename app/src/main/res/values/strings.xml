@@ -29,4 +29,7 @@
     <string name="angle_converter">Angle Converter</string>
     <string name="energy_converter">Energy Converter</string>
     <string name="speed_converter">Speed Converter</string>
+    <string name="length">Length</string>
+    <string name="currency">Currency</string>
+    <string name="physics">Physics</string>
 </resources>
