@@ -61,8 +61,7 @@
                                 android:id="@+id/animate2"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:elevation="15dp"
-                                android:src="@drawable/area" />
+                                android:src="@drawable/converterarea" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -91,8 +90,7 @@
                                 android:id="@+id/animate3"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:elevation="15dp"
-                                android:src="@drawable/angle" />
+                                android:src="@drawable/converterangle" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -121,8 +119,7 @@
                                 android:id="@+id/animate1"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:elevation="15dp"
-                                android:src="@drawable/measure" />
+                                android:src="@drawable/convertervolume" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -199,9 +196,7 @@
                                 android:id="@+id/animate4"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:layout_gravity="center"
-                                android:elevation="15dp"
-                                android:src="@drawable/twod" />
+                                android:src="@drawable/twodmore" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -231,8 +226,7 @@
                                 android:id="@+id/animate5"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:elevation="15dp"
-                                android:src="@drawable/threed" />
+                                android:src="@drawable/threedmore" />
 
 
                             <TextView
@@ -281,7 +275,7 @@
                                 android:id="@+id/animatearrow3"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/gdp"/>
+                                android:src="@drawable/ecoprofitloss"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -308,8 +302,7 @@
                                 android:id="@+id/imageButton21"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:elevation="15dp"
-                                android:src="@drawable/profit"/>
+                                android:src="@drawable/ecosimpleinterest"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -335,8 +328,7 @@
                                 android:id="@+id/imageButton22"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:elevation="15dp"
-                                android:src="@drawable/interest"/>
+                                android:src="@drawable/ecocompoundinterest"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -347,6 +339,7 @@
                     </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/EconomicsMenu"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
@@ -403,7 +396,7 @@
                                 android:id="@+id/animatearrow4"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/clock" />
+                                android:src="@drawable/physicsacceleration" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -429,8 +422,7 @@
                                 android:id="@+id/imageButton31"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:elevation="10dp"
-                                android:src="@drawable/waves" />
+                                android:src="@drawable/physicsforcecalc" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -457,8 +449,7 @@
                                 android:id="@+id/imageButton32"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:elevation="15dp"
-                                android:src="@drawable/electric" />
+                                android:src="@drawable/physicspressure" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"

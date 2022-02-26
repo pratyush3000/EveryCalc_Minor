@@ -36,6 +36,9 @@
         <action
             android:id="@+id/action_moreFragment_to_physicsMenuFragment"
             app:destination="@id/physicsMenuFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_economicsMenuFragment"
+            app:destination="@id/economicsMenuFragment" />
     </fragment>
     <fragment
         android:id="@+id/favFragment"
@@ -230,5 +233,9 @@
         android:name="com.example.everycalc.PhysicsMenuFragment"
         android:label="fragment_physics_menu"
         tools:layout="@layout/fragment_physics_menu" />
+    <fragment
+        android:id="@+id/economicsMenuFragment"
+        android:name="com.example.everycalc.EconomicsMenuFragment"
+        android:label="EconomicsMenuFragment" />
 
 </navigation>

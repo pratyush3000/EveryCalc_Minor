@@ -115,7 +115,7 @@ SQUARE FOOT CONVERSION
             if (sp1.getSelectedItem().toString() == "Square foot" && sp2.getSelectedItem().toString() == "Square inch") {
                 tot = amt * 144;
                 //Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
-                answer.setText("" + Math.floor(tot*100)/100);
+                answer.setText("" + Math.floor(tot*100)/100 + "in²");
             }
             //2.Square foot to Square yard
             else if (sp1.getSelectedItem().toString() == "Square foot" && sp2.getSelectedItem().toString() == "Square yard") {

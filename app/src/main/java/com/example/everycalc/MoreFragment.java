@@ -13,7 +13,7 @@ import android.widget.Button;
 
 
 public class MoreFragment extends Fragment {
-   CardView M2d,M3d,converterMenu,area,angle,volume,physicsMenu;
+   CardView M2d,M3d,converterMenu,area,angle,volume,physicsMenu,economicsMenu;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -26,6 +26,7 @@ public class MoreFragment extends Fragment {
         angle=view.findViewById(R.id.angleConverter);
         volume=view.findViewById(R.id.volumeConverter);
         physicsMenu=view.findViewById(R.id.physicsMenu);
+        economicsMenu=view.findViewById(R.id.EconomicsMenu);
 
         M2d.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +68,12 @@ public class MoreFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(view).navigate(R.id.action_moreFragment_to_physicsMenuFragment);
+            }
+        });
+        economicsMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.action_moreFragment_to_economicsMenuFragment);
             }
         });
         return view;
