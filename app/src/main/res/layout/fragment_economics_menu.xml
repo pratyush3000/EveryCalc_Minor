@@ -66,10 +66,10 @@
                             android:id="@+id/t1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/area"
+                            android:text="Simple Interest"
                             android:layout_margin="5px"
                             android:textAlignment="center"
-                            android:textSize="20sp"
+                            android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -107,10 +107,10 @@
                             android:id="@+id/t2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/volume"
+                            android:text="Compound Interest"
                             android:layout_margin="5px"
                             android:textAlignment="center"
-                            android:textSize="20sp"
+                            android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -148,10 +148,10 @@
                             android:id="@+id/t3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/angle"
+                            android:text="Profit/Loss"
                             android:layout_margin="5px"
                             android:textAlignment="center"
-                            android:textSize="20sp"
+                            android:textSize="18sp"
                             android:textStyle="bold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -189,7 +189,7 @@
                             android:id="@+id/t4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/energy"
+                            android:text="GST"
                             android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
@@ -231,7 +231,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="5px"
-                            android:text="@string/mass"
+                            android:text="Inflation"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -271,7 +271,7 @@
                             android:id="@+id/t6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Data"
+                            android:text="Marginal Cost"
                             android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="18sp"
@@ -313,10 +313,10 @@
                             android:id="@+id/t7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/time"
+                            android:text="Elasticity of Demand"
                             android:layout_margin="5px"
                             android:textAlignment="center"
-                            android:textSize="20sp"
+                            android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -353,7 +353,7 @@
                             android:id="@+id/t8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pressure"
+                            android:text="NNP"
                             android:layout_margin="5px"
                             android:textAlignment="center"
                             android:textSize="20sp"
@@ -361,167 +361,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/speedConverter"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="4"
-                    android:layout_rowWeight="1"
-                    android:layout_column="0"
-                    android:layout_columnWeight="1"
-                    android:layout_gravity="fill"
-                    android:layout_margin="10dp"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="10dp">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:id="@+id/image9"
-                            android:layout_width="300px"
-                            android:layout_height="300px"
-                            android:layout_margin="10px"
-                            android:contentDescription="@string/speed"
-                            android:src="@drawable/speed" />
-
-                        <TextView
-                            android:id="@+id/t9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/speed"
-                            android:layout_margin="5px"
-                            android:textAlignment="center"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/temperatureConverter"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="4"
-                    android:layout_rowWeight="1"
-                    android:layout_column="1"
-                    android:layout_columnWeight="1"
-                    android:layout_gravity="fill"
-                    android:layout_margin="10dp"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="10dp">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:id="@+id/image10"
-                            android:layout_width="300px"
-                            android:layout_height="300px"
-                            android:layout_margin="10px"
-                            android:contentDescription="@string/temperature"
-                            android:src="@drawable/temperature" />
-
-                        <TextView
-                            android:id="@+id/t10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/temperature"
-                            android:layout_margin="5px"
-                            android:textAlignment="center"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/lengthConverter"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="5"
-                    android:layout_rowWeight="1"
-                    android:layout_column="0"
-                    android:layout_columnWeight="1"
-                    android:layout_gravity="fill"
-                    android:layout_margin="10dp"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="10dp">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:id="@+id/image11"
-                            android:layout_width="300px"
-                            android:layout_height="300px"
-                            android:layout_margin="10px"
-                            android:contentDescription="@string/temperature"
-                            android:src="@drawable/temperature" />
-
-                        <TextView
-                            android:id="@+id/t11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/length"
-                            android:layout_margin="5px"
-                            android:textAlignment="center"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/currencyConverter"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="5"
-                    android:layout_rowWeight="1"
-                    android:layout_column="1"
-                    android:layout_columnWeight="1"
-                    android:layout_gravity="fill"
-                    android:layout_margin="10dp"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="10dp">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:id="@+id/image12"
-                            android:layout_width="300px"
-                            android:layout_height="300px"
-                            android:layout_margin="10px"
-                            android:contentDescription="@string/temperature"
-                            android:src="@drawable/temperature" />
-
-                        <TextView
-                            android:id="@+id/t12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/currency"
-                            android:layout_margin="5px"
-                            android:textAlignment="center"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
 
             </GridLayout>
 
