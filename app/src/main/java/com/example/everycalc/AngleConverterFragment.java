@@ -34,7 +34,7 @@ public class AngleConverterFragment extends Fragment {
         answer = view.findViewById(R.id.textView_Result);
 
 
-        String[] from = {"Degree" + "\u00B0" , "Gradian", "Milliradian", "Radian", "Minute of Arc", "Second of Arc"};
+        String[] from = {"Degree", "Gradian", "Milliradian", "Radian", "Minute of Arc", "Second of Arc"};
         ArrayAdapter ad = new ArrayAdapter<String>(requireContext(), R.layout.support_simple_spinner_dropdown_item, from);
         sp1.setAdapter(ad);
 
