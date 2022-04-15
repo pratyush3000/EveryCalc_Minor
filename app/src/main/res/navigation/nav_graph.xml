@@ -243,6 +243,9 @@
         <action
             android:id="@+id/action_economicsMenuFragment_to_compoundInterestFragment"
             app:destination="@id/compoundInterestFragment" />
+        <action
+            android:id="@+id/action_economicsMenuFragment_to_gstFragment"
+            app:destination="@id/gstFragment" />
     </fragment>
     <fragment
         android:id="@+id/simpleInterestFragment"
@@ -253,5 +256,10 @@
         android:name="com.example.everycalc.CompoundInterestFragment"
         android:label="fragment_compound_interest"
         tools:layout="@layout/fragment_compound_interest" />
+    <fragment
+        android:id="@+id/gstFragment"
+        android:name="com.example.everycalc.GstFragment"
+        android:label="fragment_g_s_t"
+        tools:layout="@layout/fragment_g_s_t" />
 
 </navigation>
